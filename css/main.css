@@ -32,7 +32,7 @@ body{
 }
 
 .image{
- width: 25%;
+ width: 28%;
  border: 1.5px solid #ccc;
  padding: 10px;
  margin: 2% 2%;
@@ -46,11 +46,27 @@ body{
 
 .image:hover{
  box-shadow: 0 1px 30px rgba(0,0,0,.3);
- transform: scale(1.05);
+ transform: scale(1.10);
  border: none;
  transition: box-shadow 0.2s ease, transform 0.2s ease;
+ z-index: 1;
 }
 
 .image p{
  padding: 10px;
+}
+
+@media (max-width: 900px){
+ .image{
+  width: 30%;
+ }
+}
+
+@media (max-width: 600px){
+ .image{
+  width: 50%;
+ }
+ .galler{
+  padding: 10vh;
+ }
 }
