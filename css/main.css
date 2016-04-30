@@ -33,8 +33,7 @@ body{
 
 .image{
  width: 25%;
- box-shadow: 0 1px 10px rgba(0,0,0,.3);
- background-color: #fdfdfd;
+ border: 1.5px solid #ccc;
  padding: 10px;
  margin: 2% 2%;
  flex-grow: 1;
@@ -45,8 +44,11 @@ body{
  margin: 0 auto;
 }
 
-.image img:hover{
- transform: 
+.image:hover{
+ box-shadow: 0 1px 30px rgba(0,0,0,.3);
+ transform: scale(1.05);
+ border: none;
+ transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .image p{
