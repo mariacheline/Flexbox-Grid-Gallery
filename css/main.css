@@ -25,8 +25,7 @@ body{
 .gallery{
  width: 100%;
  margin: 0 auto;
- padding-top: 10vh;
- padding-bottom: 10vh;
+ padding: 10vh 5vh;
  display: flex;
  flex-wrap: wrap;
 }
