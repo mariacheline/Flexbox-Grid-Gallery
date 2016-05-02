@@ -57,8 +57,11 @@ body{
 
 @media (max-width: 900px){
  .image{
-  width: 45%;
+   width: 45%;
  }
+ .gallery{
+   padding: 10vh 1vh;
+  }
 }
 
 @media (max-width: 600px){
